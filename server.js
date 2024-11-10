@@ -55,7 +55,7 @@ app.get('/send-quote', async (req, res) => {
     const emailResult = await sendEmail(quote, author);
     res.json({ message: 'Quote scraped e o email enviado', quote, author, emailResult });
   } catch (error) {
-    res.status(500).json({ error: 'Ocorreu um Erro' });
+    res.status(500).json({ error: 'Ocorreu um Erro tente novamente' });
   }
 });
 
