@@ -48,7 +48,7 @@ async function sendEmail(quote, author) {
   return data;
 }
 
-// API endpoint para para o scrap
+// API endpoint para para o scraped
 app.get('/send-quote', async (req, res) => {
   try {
     const { quote, author } = await scrapeQuote();
