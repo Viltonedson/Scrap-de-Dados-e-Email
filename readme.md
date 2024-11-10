@@ -1,0 +1,1 @@
+Esse um projeto de backend, voltado para fazer scrap de dados e depois enviar os dados do scrap por um email utilizando uma API chamada "Resend"
